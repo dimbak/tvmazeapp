@@ -1,0 +1,10 @@
+body {
+  background-color:#000;
+}
+
+label, h2 {
+	color:#fff;
+}
+h1,h2 {
+	text-align:center;
+}
