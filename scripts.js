@@ -26,7 +26,7 @@ function handleButton1()
   console.log(series_name)
   
 
-  var get_show_id = 'http://api.tvmaze.com/singlesearch/shows?q=';  
+  var get_show_id = 'https://api.tvmaze.com/singlesearch/shows?q=';  
   request.open('GET', get_show_id+series_name+'&embed=episodes', true);
   
   request.send();
